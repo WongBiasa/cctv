@@ -1,3 +1,5 @@
+#Udah gitu aja
+
 import LIST
 from LIST.id import *
 from LIST.it import *
