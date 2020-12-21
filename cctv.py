@@ -22,42 +22,20 @@ dgray = "\033[1;30m"
 ir = "\033[0;101m"
 reset = "\033[0m"
 
+
+
 def main():
-    print "Hallo kaka pasti jomblo ya??"
-    p=raw_input('jawablah klo jomblo!')
-    print 
-    print 'ngakak kalau jomblo wkwkwkkkkwkwkwkwkw'
-    print 
-    print '====================='
-    print '== Author:WhoMHw   =='
-    print '====================='
-    print
-    print  "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
-    print  "@                                                                              @"
-    print  "@                                                                              @"
-    print  "@    * * / /,&#&/** /                                    * * / /,%#@(/*        @"
-    print  "@      * & @ & #. . * & &                             #.., * % @ @ #..         @"
-    print  "@           . % @ *      . % @                     . # @ *        #            @"
-    print  "@                                          #                                   @"
-    print  "@                                                                              @"
-    print  "@                                       *                                      @"
-    print  "@        @ @,%&,@ @ @ @ @,%&,@ @ @ @ @ @&,@ @ @ @ @.%&,@ @ @ @ @.&&*@          @"
-    print  "@          # % % ( .  * ( % % / .  * #/( & ( .  * ( # % ( .  * ( # %           @"
-    print  "@                          # @ /      & # @ /                                  @"
-    print  "@              /,,( ( ( ( ( /,,/ ( (.(#  (,,/ ( ( ( ( (,,( ( ( (               @"
-    print  "@                                                                              @"
-    print  "@                                                                              @"
-    print  "@            .. , . . . , .. . . . .   ,  , . , . . ., . . , , , .             @"
-    print  "@              & & .      . & & .            .      ..% & .                    @"
-    print  "@             , @ @ @ #    , & @              & # .  , & @ @ #                 @"
-    print  "@               %*@ @ @ & @.&                     @ @.&#/@ @                   @"
-    print  "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
-    print 
-    print  '========================='
-    print  '=  Hack cctv BY WhoMHw  ='
-    print  '========================='
-    print 
-    print '>>>>>>>>>MENU<<<<<<<<<'
+    os.system('clear')
+    print("{}        ____ ").format(r)
+    print("   _[]_/____\__n_ ")
+    print("  |_____.--.__()_|")
+    print("  |C   //# \\\    |")
+    print("{}  |C   \\\__//    | ").format(w)
+    print("  |TV   '--'     | ")
+    print("{}  '--------------'----------{}------------------.  ").format(r,w)
+    print("{}  | {}Author  : {}WhoMHw {}     | {}INDO{}N{}{}ESIA         | ").format(r,w,r,w,r,ir,reset,w)
+    print("{}  | {}Youtube : {}Catatan Newbie {}| {}Private{}|").format(r,w,w,w,lgray,w)
+    print("{}  '------------------------------------{}-------'  ").format(r,w)
     print ("  {}[ 1 ] {}Italy").format(r,w)
     print ("  {}[ 2 ] {}Indonesia").format(r,w)
     print ("  {}[ 3 ] {}Japan").format(r,w)
@@ -71,7 +49,8 @@ def main():
     select = input("\033[1;31m[ \033[1;37mSelect@Number \033[1;31m]\033[1;37m> ")
     filtering(select)
 
-    
+
+
 def filtering(pilih):
     if pilih == 1:
         italy()
@@ -98,16 +77,3 @@ def filtering(pilih):
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
