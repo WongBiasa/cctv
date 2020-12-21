@@ -25,7 +25,6 @@ reset = "\033[0m"
 
 
 def main():
-    os.system('clear')
     print("{}        ____ ").format(r)
     print("   _[]_/____\__n_ ")
     print("  |_____.--.__()_|")
